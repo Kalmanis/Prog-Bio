@@ -1,29 +1,40 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+#logo{
+    padding: 10px 0;
+    width: 10%;
+    height: 10%;
+    float: left;
+}
 header{
-   background-color: green;
+   background-color: grey;
 }
 header::after{
     content: '';
     display: table;
     clear: both;
-} 
+}
+nav{
+    float: right;
+}
+  
 nav ul{
     margin: 0;
     list-style: none;
 }
 nav li{
     display: inline-block;
-    margin: 0;
+    margin-left: 70px;
+    padding-top: 30px;
 }
-nav button{
-    border-style: none;
-    background-color: greenyellow;
+nav a{
     color: black;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-    size: 2cm;
-    height: 2cm;
 }
-nav button:hover{
+nav a:hover{
     color: white;
 }
