@@ -2,12 +2,6 @@
     width: 80%;
     margin: 0 auto;
 }
-#logo{
-    padding: 10px 0;
-    width: 10%;
-    height: 10%;
-    float: left;
-}
 header{
    background-color: grey;
 }
@@ -23,11 +17,6 @@ nav{
 nav ul{
     margin: 0;
     list-style: none;
-}
-nav li{
-    display: inline-block;
-    margin-left: 70px;
-    padding-top: 30px;
 }
 nav button{
     color: black;
