@@ -5,11 +5,7 @@ header::after{
     content: '';
     display: table;
     clear: both;
-}
-nav{
-    float: right;
-}
-  
+} 
 nav ul{
     margin: 0;
     list-style: none;
