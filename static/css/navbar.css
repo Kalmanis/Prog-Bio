@@ -19,5 +19,5 @@ nav a{
     padding: 2cm;
 }
 nav a:hover{
-    color: white;
+    background-color: rgb(84, 206, 214);
 }
