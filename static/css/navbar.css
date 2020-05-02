@@ -2,6 +2,7 @@
     width: 80%;
     margin: 0 auto;
 }
+
 header{
    background-color: grey;
 }
@@ -17,6 +18,9 @@ nav{
 nav ul{
     margin: 0;
     list-style: none;
+}
+nav li{
+    display: inline-block;
 }
 nav button{
     color: black;
