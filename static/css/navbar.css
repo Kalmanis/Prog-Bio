@@ -1,6 +1,7 @@
 header{
    background-color: green;
    height: 2cm;
+   margin: 0;
 }
 nav ul{
     margin: 0;
@@ -14,10 +15,8 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-    size: 2cm;
     background-color: greenyellow;
     margin: 0;
-    padding: 2cm;
     height: 2cm;
 }
 nav a:hover{
