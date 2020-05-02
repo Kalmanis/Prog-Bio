@@ -1,5 +1,5 @@
 header{
-   background-color: grey;
+   background-color: green;
 }
 header::after{
     content: '';
@@ -19,7 +19,7 @@ nav li{
     margin: 0;
 }
 nav button{
-    background-color: darkgray;
+    background-color: gray;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
