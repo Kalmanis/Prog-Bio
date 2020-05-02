@@ -1,15 +1,6 @@
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
-#logo{
-    padding: 10px 0;
-    width: 10%;
-    height: 10%;
-    float: left;
 }
 header{
-   background-color: grey;
+   background-color: green;
 }
 header::after{
     content: '';
@@ -26,11 +17,9 @@ nav ul{
 }
 nav li{
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 30px;
 }
 nav a{
-    color: black;
+    color: greenyellow;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
