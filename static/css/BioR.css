@@ -1,0 +1,70 @@
+#A{
+    float: left;
+    width: 50%;
+    height: 110%;
+    padding: 1cm;
+    background-color: cadetblue;
+    text-align: center;
+}
+#B{
+    float: right;
+    width: 50%;
+    height: 110%;
+    padding: 1cm;
+    background-color: burlywood;
+    text-align: center;
+
+}
+#tab{
+    border: black solid 2px;
+}
+.container {
+    background-color: black;
+    border: solid black 3px;
+    position: relative;
+    width: 70%;
+}
+.container img {
+    width: 100%;
+    height: auto;
+}
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left:-15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+  .container .btn2 {
+    position: absolute;
+    top: 50%;
+    left:115%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn2:hover {
+    background-color: black;
+  }
+  .imgButton{
+    background-color: gray;
+    border-style: none;
+  }

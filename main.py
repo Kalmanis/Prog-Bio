@@ -1,8 +1,6 @@
 from flask import Flask, render_template, request
 
-
 app = Flask('app')
-
 
 @app.route('/')
 def index_page():
